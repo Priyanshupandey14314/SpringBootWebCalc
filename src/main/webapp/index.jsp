@@ -70,9 +70,9 @@
     <div class="container">
         <h2>Add Two Numbers</h2>
 
-        <form action="add">
-            <input type="number" id="num1" placeholder="Enter first number" required>
-            <input type="number" id="num2" placeholder="Enter second number" required>
+        <form action="add" method="post">
+            <input type="number" name="num1" placeholder="Enter first number" required>
+            <input type="number" name="num2" placeholder="Enter second number" required>
             <input type="submit" value="add"/>
         </form>
 

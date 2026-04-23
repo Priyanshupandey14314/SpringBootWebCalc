@@ -14,6 +14,7 @@ public class HomeController {
     @RequestMapping("/add")
     //Servlet way req handling
     public String add(HttpServletRequest req, HttpSession session){
+        System.out.println("In add");
         int n1 = Integer.parseInt(req.getParameter("num1"));
         int n2 = Integer.parseInt(req.getParameter("num2"));
         int res = n1+n2;
