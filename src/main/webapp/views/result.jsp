@@ -68,7 +68,7 @@
 <body>
 
     <div class="container">
-        <div id="result">Result is :<%=session.getAttribute("res")%></div>
+        <div id="result">Result is :${result}</div>
     </div>
 </body>
 </html>
