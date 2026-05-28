@@ -68,14 +68,19 @@
 <body>
 
     <div class="container">
-        <h2>Add Two Numbers</h2>
+        <h2>Add Aliens</h2>
 
-        <form action="add" method="post">
+        <%-- <form action="add" method="post">
             <input type="number" name="num1" placeholder="Enter first number" required>
             <input type="number" name="num2" placeholder="Enter second number" required>
             <input type="submit" value="add"/>
         </form>
-
+        --%>
+        <form action="addAlien" method="post">
+                    <input type="number" name="id" placeholder="Enter id" required>
+                    <input type="text" name="name" placeholder="Enter name" required>
+                    <input type="submit" value="addAlien"/>
+                </form>
         <div id="result"></div>
     </div>
 

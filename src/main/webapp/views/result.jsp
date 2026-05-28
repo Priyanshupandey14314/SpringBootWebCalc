@@ -68,7 +68,10 @@
 <body>
 
     <div class="container">
-        <div id="result">Result is :${result}</div>
+        <%-- <div id="result">Result is :${result}</div> --%>
+        <h2>Welcome to Page </h2>
+        <p> ${alien} </p>
+        <p>Welcome to ${course} World.</p>
     </div>
 </body>
 </html>
